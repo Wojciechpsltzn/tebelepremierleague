@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    position: relative;
+  }
+  
+  main table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20em;
+    font-family: Arial, sans-sherif;
+    font-size: 16px;
+    border-collapse: collapse;
+  }
+  
+  main td,
+  th {
+    padding: 4px;
+    border: 1px solid black;
+  }
+  
+  main th {
+    color: white;
+    background-color: green;
+  }
+  
+  main .pierwsze {
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  main .drugie {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  main .trzecie {
+    text-align: right;
+    vertical-align: bottom;
+  }
+  
+  aside table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20em;
+    font-family: Arial, sans-sherif;
+    font-size: 16px;
+    border-collapse: collapse;
+  }
+  
+  aside thead {
+    color: blue;
+    text-align: center;
+    vertical-align: middle;
+    background-color: orange;
+  }
+  
+  aside th,
+  td {
+    border: 1px solid black;
+  }
+}
+.league-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.league-table th,
+.league-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.league-table th {
+    background-color: #f2f2f2;
+}
+.champions-league { background-color: #ADD8E6; }
+.europa-league { background-color: #90EE90; }
+.relegation { background-color: #FFB6C1; }
+img{
+  float: right;
+}
